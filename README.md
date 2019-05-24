@@ -1,5 +1,9 @@
 # Snake Game
 
+## Description
+
+- This game is your typical Snake game. Starting at a position you venture through the square map trying to eat apples in order to grow. There is a special feature which I have included in this game, which is the ability to return to a specific position saved whilst being alive.
+
 ## Instructions
 
 - Run program in Main
