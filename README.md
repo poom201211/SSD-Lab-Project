@@ -1,4 +1,4 @@
-# SSD-Lab-Project
+# Snake Game
 
 ## Patterns used
 
