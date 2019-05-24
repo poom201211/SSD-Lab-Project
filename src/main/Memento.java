@@ -10,18 +10,17 @@ public class Memento {
     public List<Block> snakeBlock = new ArrayList<>();
     public int saveDx;
     public int saveDy;
-    public int saveFoodX;
-    public int saveFoodY;
+    public int saveAppleX;
+    public int saveAppleY;
 
     public Memento(Map map, Snake snake, Apple apple) {
-
         for (Block b : snake.getBody()) {
             snakeBlock.add(new Block(b.getX(), b.getY()));
         }
         this.saveDx = snake.getDx();
         this.saveDy = snake.getDy();
-        this.saveFoodX = apple.getX();
-        this.saveFoodY = apple.getY();
+        this.saveAppleX = apple.getX();
+        this.saveAppleY = apple.getY();
     }
 
 

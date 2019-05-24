@@ -16,7 +16,6 @@ public class Snake {
 		body.add(new Block(x, y + 1));
 		body.add(new Block(x, y + 2));
 		body.add(new Block(x, y + 3));
-
 	}
 
 	public void reset() {

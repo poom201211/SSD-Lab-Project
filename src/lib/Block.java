@@ -10,14 +10,6 @@ public class Block {
         this.y = y;
     }
 
-    public int getX() {
-        return x;
-    }
-
-    public int getY() {
-        return y;
-    }
-
     public void setX(int x) {
         this.x = x;
     }
@@ -26,7 +18,16 @@ public class Block {
         this.y = y;
     }
 
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
     public boolean overlapped(Block b) {
         return x == b.x && y == b.y;
     }
+
 }

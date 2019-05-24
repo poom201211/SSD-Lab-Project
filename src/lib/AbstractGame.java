@@ -16,10 +16,12 @@ public abstract class AbstractGame extends Observable {
         @Override
         public void run() {
             super.run();
-            while(running) {
-                System.out.println("run");
-                delay();
-                singleGameLoop();
+            while(true) {
+                if(running) {
+                    singleGameLoop();
+                }else{
+                    System.out.println();
+                }
             }
         }
     };
@@ -30,7 +32,6 @@ public abstract class AbstractGame extends Observable {
     }
 
     public void end() {
-        System.out.println("supp");
         running = false;
     }
 
@@ -38,6 +39,7 @@ public abstract class AbstractGame extends Observable {
         gameLogic();
         setChanged();
         notifyObservers();
+        delay();
     }
 
     private void delay() {

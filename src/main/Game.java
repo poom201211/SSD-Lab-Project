@@ -108,8 +108,8 @@ public class Game extends AbstractGame {
 		
 		snake.setDx(memento.saveDx);
 		snake.setDy(memento.saveDy);
-		apple.setX(memento.saveFoodX);
-		apple.setY(memento.saveFoodY);
+		apple.setX(memento.saveAppleX);
+		apple.setY(memento.saveAppleY);
 
 		for (Block b : snake.getBody()) {
 			map.addBlock(b);
