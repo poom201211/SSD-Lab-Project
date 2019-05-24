@@ -8,14 +8,19 @@
 
 - Run program in Main
 
-## Patterns used
+## Patterns and UML diagrams
 
 - Singleton design pattern 
 
+![Singleton UML](https://github.com/poom201211/SSD-Lab-Project/blob/master/UML%20image/singleton.png)
+
 - Observer design pattern
+
+![Observer UML](https://github.com/poom201211/SSD-Lab-Project/blob/master/UML%20image/observable.png)
 
 - Memento design pattern
 
-## UML diagram
+![Memento UML](https://github.com/poom201211/SSD-Lab-Project/blob/master/UML%20image/mememto.png)
+
 
 
