@@ -1,5 +1,5 @@
 Feature: As a snake
-  I want to be able to grow
+  I want to be able to grow.
 
   Background:
     Given a snake exist with size 4 block at position x = 5 and y = 10.

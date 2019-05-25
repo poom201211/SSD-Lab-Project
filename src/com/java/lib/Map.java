@@ -5,8 +5,12 @@ import java.util.List;
 
 public class Map {
 
-    protected int size = 20;
+    protected int size;
     protected List<Block> blocks = new ArrayList<Block>();
+
+    public Map(int size){
+        this.size = size;
+    }
 
     public int getSize() {
         return size;

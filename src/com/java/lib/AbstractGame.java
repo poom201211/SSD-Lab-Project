@@ -6,11 +6,11 @@ public abstract class AbstractGame extends Observable {
 
     public boolean running = false;
 
-    protected abstract void gameLogic();
-    protected abstract void handleLeftKey();
-    protected abstract void handleRightKey();
-    protected abstract void handleUpKey();
-    protected abstract void handleDownKey();
+    public abstract void gameLogic();
+    public abstract void handleLeftKey();
+    public abstract void handleRightKey();
+    public abstract void handleUpKey();
+    public abstract void handleDownKey();
 
     public Thread gameThread = new Thread() {
         @Override

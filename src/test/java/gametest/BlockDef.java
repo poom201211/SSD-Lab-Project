@@ -19,9 +19,10 @@ public class BlockDef {
         block = new Block(x,y);
     }
 
-    @Then("overlapping blocks at position x = (.+) and y = (.+) will return true")
+    @Then("overlapping blocks at position x = (.+) and y = (.+) will return true.")
     public void overLappingTest(int x, int y) {
         Block testBlock = new Block(x,y);
         assertEquals(true,block.overlapped(testBlock));
     }
+
 }

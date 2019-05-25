@@ -9,7 +9,7 @@ public class Game extends AbstractGame {
 	private Random random = new Random();
 	private Apple apple = new Apple(5, 5);
 	private Snake snake = new Snake(10, 10);
-	private Map map = new Map();
+	private Map map = new Map(20);
 	private static final Game instance = new Game();
 
 	public static Game getInstance(){
@@ -25,7 +25,7 @@ public class Game extends AbstractGame {
 	}
 
 	public void resetGame(){
-		map = new Map();
+		map = new Map(20);
 		apple.reset();
 		snake.reset();
 		for (Block b : snake.getBody()) {
@@ -33,6 +33,10 @@ public class Game extends AbstractGame {
 		}
 		map.addBlock(apple);
 		running = true;
+	}
+
+	public Snake getSnake(){
+		return snake;
 	}
 
 	public int getMapSize() {
@@ -48,7 +52,7 @@ public class Game extends AbstractGame {
 	}
 
 	@Override
-	protected void gameLogic() {
+	public void gameLogic() {
 		snake.move();
 		for (Block b : snake.getBody()) {
 			if (b.overlapped(apple)) {
@@ -67,7 +71,7 @@ public class Game extends AbstractGame {
 
 
 	@Override
-	protected void handleLeftKey() {
+	public void handleLeftKey() {
 		if (snake.getDx() != 1) {
 			snake.setDx(-1);
 			snake.setDy(0);
@@ -75,7 +79,7 @@ public class Game extends AbstractGame {
 	}
 
 	@Override
-	protected void handleRightKey() {
+	public void handleRightKey() {
 		if (snake.getDx() != -1) {
 			snake.setDx(1);
 			snake.setDy(0);
@@ -83,7 +87,7 @@ public class Game extends AbstractGame {
 	}
 
 	@Override
-	protected void handleUpKey() {
+	public void handleUpKey() {
 		if (snake.getDy() != 1) {
 			snake.setDx(0);
 			snake.setDy(-1);
@@ -91,7 +95,7 @@ public class Game extends AbstractGame {
 	}
 
 	@Override
-	protected void handleDownKey() {
+	public void handleDownKey() {
 		if (snake.getDy() != -1) {
 			snake.setDx(0);
 			snake.setDy(1);
