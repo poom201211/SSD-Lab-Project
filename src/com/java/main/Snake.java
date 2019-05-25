@@ -66,7 +66,7 @@ public class Snake {
 		return newBlock;
 	}
 
-	public boolean hitItself() {
+	public boolean hitItSelf() {
 		Block head = body.get(0);
 		for (int i = 1; i < body.size(); i++) {
 			if (head.overlapped(body.get(i))) {

@@ -60,7 +60,7 @@ public class Game extends AbstractGame {
 			}
 		}
 
-		if (snake.hitItself()) {
+		if (snake.hitItSelf()) {
 			end();
 		}
 	}
