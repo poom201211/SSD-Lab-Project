@@ -6,6 +6,7 @@
 
 ## Instructions
 
+- Import project as maven for testing
 - Run program in Main
 
 ## Patterns and UML diagrams
