@@ -10,8 +10,11 @@ public class Snake {
 	private List<Block> body = new ArrayList<Block>();
 	private int dx = 0;
 	private int dy = -1;
+	private int x,y;
 
 	public Snake(int x, int y) {
+		this.x = x;
+		this.y = y;
 		body.add(new Block(x, y));
 		body.add(new Block(x, y + 1));
 		body.add(new Block(x, y + 2));
@@ -53,6 +56,10 @@ public class Snake {
 	public void setDy(int dy) {
 		this.dy = dy;
 	}
+
+	public int getX(){ return x; }
+
+	public int getY(){ return y; }
 
 	public Block expand() {
 		Block lastBlock = body.get(body.size() - 1);
