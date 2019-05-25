@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Memento {
 
-    public List<Block> snakeBlock = new ArrayList<>();
+    public List<Block> snakeBlock = new ArrayList<Block>();
     public int saveDx;
     public int saveDy;
     public int saveAppleX;

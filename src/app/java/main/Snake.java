@@ -19,7 +19,7 @@ public class Snake {
 	}
 
 	public void reset() {
-		body = new ArrayList<>();
+		body = new ArrayList<Block>();
 		body.add(new Block(10, 10));
 		body.add(new Block(10, 10 + 1));
 		body.add(new Block(10, 10 + 2));
