@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af50ac2-2c14-4378-b858-90787eef25ea" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/java/lib/AbstractGame.java" afterPath="$PROJECT_DIR$/src/com/java/lib/AbstractGame.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/java/lib/Block.java" afterPath="$PROJECT_DIR$/src/com/java/lib/Block.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/java/lib/Map.java" afterPath="$PROJECT_DIR$/src/com/java/lib/Map.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/java/main/Apple.java" afterPath="$PROJECT_DIR$/src/com/java/main/Apple.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/java/main/Game.java" afterPath="$PROJECT_DIR$/src/com/java/main/Game.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/java/main/Gui.java" afterPath="$PROJECT_DIR$/src/com/java/main/Gui.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/java/main/Main.java" afterPath="$PROJECT_DIR$/src/com/java/main/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/java/main/Memento.java" afterPath="$PROJECT_DIR$/src/com/java/main/Memento.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/java/main/Snake.java" afterPath="$PROJECT_DIR$/src/com/java/main/Snake.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/resources/features/snake.feature" afterPath="$PROJECT_DIR$/src/com/resources/features/snake.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber/report.js" afterPath="$PROJECT_DIR$/target/cucumber/report.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,11 +25,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
               <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -117,18 +115,6 @@
             <state relative-caret-position="336">
               <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UAT.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gametest/UAT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -692,6 +678,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding />
         </state>
       </provider>
